@@ -1,10 +1,9 @@
+import React from "react";
 import "./scss/Index.scss";
 import Navbar from "./components/Navbar/Navbar";
 
 function App() {
-  return (
-    <Navbar/>
-  );
+  return <Navbar />;
 }
 
 export default App;

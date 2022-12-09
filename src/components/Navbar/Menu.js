@@ -1,6 +1,6 @@
-export const MenuUl = () => {
+export const MenuUl = ({classAct}) => {
   return (
-    <ul className="menu-area">
+    <ul className={classAct ? "menu-area active" : "menu-area"}>
       <li className="nav-items">
         <a href="#" className="nav-link">
           خانه

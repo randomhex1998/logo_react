@@ -1,6 +1,8 @@
-export const BarsIco = () => {
+
+export const BarsIco = ({fuckClick}) => {
+
   return (
-    <div className="bars">
+    <div className="bars" onClick={fuckClick}>
       <span></span>
       <span></span>
       <span></span>

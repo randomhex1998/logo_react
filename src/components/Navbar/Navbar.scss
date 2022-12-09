@@ -72,10 +72,17 @@
                 flex-direction: column;
                 background-color: #fff;
                 z-index: 99999;
+                opacity: 0;
+                visibility: hidden;
             }
         }
         
     }
 
 
+}
+
+.active {
+    opacity: 1 !important;
+    visibility: visible !important;
 }
