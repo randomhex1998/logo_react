@@ -13,6 +13,18 @@ $light-gray-color: #a4b0be;
 $dark-gray-color: #747d8c;
 $dark-color: #1e272e;
 
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flexSpaceBet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -32,3 +44,12 @@ li{
     list-style: none;
 }
 
+.container{
+    padding: 0 15rem;
+
+    @include XXLarge{padding:0  10rem;}
+    @include XLarge{padding:0  8rem;}
+    @include Large{padding:0  6rem;}
+    @include Medium{padding:0  2rem;}
+    @include XSmall{padding:0  0.5rem;}
+}

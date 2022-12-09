@@ -5,7 +5,7 @@ import { LogoNav } from "./Logo";
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
+    <nav className="navbar container">
       <section className="navbar-container">
         <LogoNav />
         <BarsIco />
