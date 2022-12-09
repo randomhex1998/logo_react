@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+// Fonts
 $main-persian-font: 'Vazirmatn', sans-serif;
 $main-english-font: 'Raleway', sans-serif;
+
+
+// Colors
+$light-gree-color: #27ae60;
+$light-purple-color: #70a1ff;
+$light-gray-color: #a4b0be;
+$dark-gray-color: #747d8c;
+$dark-color: #1e272e;
 
 *{
     margin: 0;
@@ -14,3 +23,12 @@ $main-english-font: 'Raleway', sans-serif;
 body{
     font-family: $main-persian-font;
 }
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+

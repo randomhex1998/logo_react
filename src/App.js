@@ -1,7 +1,10 @@
 import "./scss/Index.scss";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
-  return 555;
+  return (
+    <Navbar/>
+  );
 }
 
 export default App;
