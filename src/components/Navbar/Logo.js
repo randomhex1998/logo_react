@@ -1,3 +1,3 @@
 export const LogoNav = () => {
-  return <h1 className="navbar-logo">Logo</h1>;
+  return <h1 className="navbar-logo">LOGO</h1>;
 };

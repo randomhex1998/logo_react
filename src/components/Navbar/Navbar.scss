@@ -3,7 +3,7 @@
     height: 4rem;
     position: absolute;
     top: 0;
-    background-color: crimson;
+    background-color: transparent;
     @include flexCenter;
 
     .navbar-container{
@@ -13,6 +13,10 @@
         .navbar-logo{
             font-size: 30px;
             cursor: pointer;
+            color: #fff;
+            font-family: $main-english-font;
+            font-weight: 800;
+            letter-spacing: 2px;
         }
 
         .bars{
@@ -54,7 +58,7 @@
                 
                 .nav-link{
                     font-size: 18px;
-                    color: $dark-color;
+                    color: #fff;
                 }
 
                 &:hover::after{
