@@ -1,0 +1,42 @@
+.slide-area{
+    height: 80vh;
+    background-image: url("../../Img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .wrapper {
+        width: 100%;
+        height: 80vh;
+        background-color: rgba(0, 0, 0, 0.692);
+        color: #fff;
+        text-align: center;
+        flex-direction: column;
+        @include flexCenter;
+        gap: 1.5rem;
+
+
+        .slide-title{
+            font-size: 45px;
+        }
+
+        .btns-area{
+            display: flex;
+            gap: 1rem;
+
+            .btn-green{
+                background-color: $light-gree-color;
+                color: #fff;
+                &:hover{
+                    background-color: #2ecc71;
+                }
+            }
+            .btn-white{
+                background-color: #fff;
+                &:hover{
+                    background-color: $light-purple-color;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
