@@ -1,16 +1,46 @@
 .description{
-    padding: 16px;
-    border: 1px solid $light-gray-color;
-    border: 3px;
+
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+
+        .desc-box{
+            width: 200px;
+            text-align: center;
+            border: 1px solid #ecf0f1;
+            border-radius: 3px;
+            padding: 16px;
+
+
+            .DescTitle{
+                font-size: 16px;
+                font-weight: 400;
+                color: $dark-color;
+            }
+            
+            
+            .desc-para{
+                color: $light-gray-color;
+                margin: 1rem 0;
+                font-weight: 300;
+            }
+            
+            .des-ico{
+                color: $light-purple-color;
+                font-size: 25px;
+            }
+            
+            
+            .desc-link{
+                color: $light-purple-color;
+            
+                &:hover{
+                    color: $light-gree-color;
+                }
+            }
+        }
+    }
 }
 
-.DescTitle{
-    font-size: 16px;
-    font-weight: 400;
-    color: $dark-color;
-}
-
-
-.DescPara{
-    color: $light-gray-color;
-}
