@@ -4,7 +4,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
         gap: 2rem;
+
+
 
         .desc-box{
             width: 200px;
@@ -12,6 +15,9 @@
             border: 1px solid #ecf0f1;
             border-radius: 3px;
             padding: 16px;
+            @include XLarge{
+                flex: 1 1 50%;
+            }
 
 
             .DescTitle{
