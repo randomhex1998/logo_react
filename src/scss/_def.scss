@@ -68,6 +68,27 @@ li{
     padding: 3rem 0;
 }
 
+.pt-2{
+    padding-top: 2rem;
+}
+
 .column{
     flex: 1;
+}
+
+.MainTitles{
+        font-size: 25px;
+        text-align: center;
+        font-weight: 900;
+        font-family: $main-persian-font;
+
+        &::after{
+            content: "";
+            width: 40px;
+            height: 5px;
+            background-color: $light-purple-color;
+            display: block;
+            text-align: center;
+            margin: 1rem auto;
+        }
 }

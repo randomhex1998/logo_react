@@ -1,5 +1,7 @@
 .description{
 
+
+
     .wrapper {
         display: flex;
         justify-content: center;
@@ -21,9 +23,10 @@
 
 
             .DescTitle{
-                font-size: 16px;
-                font-weight: 400;
+                font-size: 16px !important;
+                font-weight: bold !important;
                 color: $dark-color;
+                font-family: $main-persian-font !important;
             }
             
             
