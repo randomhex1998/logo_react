@@ -3,6 +3,7 @@ import "./scss/Index.scss";
 import Navbar from "./components/Navbar/Navbar";
 import SlideArea from "./components/SlideSec/SlideArea";
 import Description from "./components/Description/Description";
+import Portfolio from "./components/Portfolio/Portfolio"
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <SlideArea />
       <Description />
+      <Portfolio />
     </>
   );
 }

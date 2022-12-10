@@ -1,0 +1,46 @@
+.Portfolio{
+    width: 100%;
+    background-color:#ecf0f1;
+    
+
+    .container {
+        .row{
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+    }
+}
+
+.bitch{
+    height: 250px;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all 115s linear !important;
+
+    &:hover .port-content{
+        opacity: 1;
+        visibility: visible;
+    }
+
+}
+.imageBitch {
+     max-width: 100%;
+     height: 250px;
+ }
+
+ .port-content{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.507);
+    color: #ecf0f1;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    @include flexCenter;
+    transition: all 0.4s linear !important;
+ }
+
