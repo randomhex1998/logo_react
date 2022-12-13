@@ -1,9 +1,45 @@
-.about-box{
-    text-align: right;
-
+.about{
     .row{
-        justify-content: flex-start;
-        flex-direction: row-reverse;
-        gap: 1rem;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .about-box{
+        text-align: right;
+        width: 371px;
+        padding: 16px;
+        border-radius: 3px;
+        border: 1px solid #ecf0f1;
+    
+        .row{
+            justify-content: flex-start;
+            flex-direction: row-reverse;
+            gap: 0.8rem;
+    
+            i{
+                font-size: 23px;
+                color: $light-purple-color;
+            }
+    
+            h3{
+                font-size: 18px;
+                font-weight: 900;
+            }
+        }
+    
+        p{
+            color: $light-gray-color;
+            font-size: 13px;
+            padding-top: 10px;
+            line-height: 1.7;
+        }
+
+        @include XLarge{
+            width: 400px;
+        }
+        @include Large{
+            flex: 0 0 100%;
+        }
     }
 }
+
