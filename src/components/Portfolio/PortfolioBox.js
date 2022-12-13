@@ -1,11 +1,11 @@
 import React from "react";
 
-const PortBox = ({image , ImgClass ,CLName}) => {
+const PortBox = ({image ,ImgAlt ,CLName , Title}) => {
   return (
     <div className={CLName}>
-      <img src={image} alt="5" className={ImgClass} />
+      <img src={image} alt={ImgAlt} className="port-img-class" />
       <div className="port-content">
-        <h3 className="port-box-title">55</h3>
+        <h3 className="port-box-title">{Title}</h3>
       </div>
     </div>
   );

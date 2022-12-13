@@ -1,0 +1,9 @@
+.about-box{
+    text-align: right;
+
+    .row{
+        justify-content: flex-start;
+        flex-direction: row-reverse;
+        gap: 1rem;
+    }
+}
