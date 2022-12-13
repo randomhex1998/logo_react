@@ -1,0 +1,9 @@
+.reason-image {
+  width: 500px;
+  height: 300px;
+  background: url("../../Img/pic1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 3px;
+}/*# sourceMappingURL=Reason.css.map */
