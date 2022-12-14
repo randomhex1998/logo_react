@@ -1,4 +1,16 @@
+.reason{
+    text-align: right;
 
+    .MainTitles{
+        text-align: right !important;
+
+        &::after{
+            margin: 1rem 0 0 auto!important;
+            direction: rtl;
+            text-align: right !important;
+        }
+    }
+}
 
 .reason-image{
     width: 500px;
