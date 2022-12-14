@@ -6,6 +6,7 @@ import Description from "./components/Description/Description";
 import Portfolio from "./components/Portfolio/Portfolio";
 import About from "./components/About/About";
 import Reason from "./components/Reason/Reason";
+import Consent from "./components/Consent/Consent";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Portfolio />
       <About />
       <Reason />
+      <Consent />
     </>
   );
 }
