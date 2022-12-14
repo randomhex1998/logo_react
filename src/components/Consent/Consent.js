@@ -13,17 +13,17 @@ const Consent = () => {
             </div>
             <div className="column">
               <i className="fas fa-trophy"></i>
-              <h3>451</h3>
+              <h3>70</h3>
               <p>مشتری راضی داریم</p>
             </div>
             <div className="column">
               <i className="fas fa-coffee"></i>
-              <h3>451</h3>
+              <h3>56</h3>
               <p>مشتری راضی داریم</p>
             </div>
             <div className="column">
               <i className="fas fa-file"></i>
-              <h3>451</h3>
+              <h3>100</h3>
               <p>مشتری راضی داریم</p>
             </div>
           </div>
