@@ -13,13 +13,26 @@
 
     .row{
         gap: 1rem;
+        flex-wrap: wrap;
+
+        @include XLarge{
+            
+        }
+
+        .column{
+            @include XLarge{
+                justify-content: center !important;
+                align-items: center !important;
+                flex: 0 0 100% !important;
+            }
+        }
 
         .column:nth-child(1){
             display: flex;
             justify-content: flex-end;
             align-items: flex-start;
             flex-direction: column;
-            flex: 2 !important;
+            flex: 2;
         }
         .column:nth-child(2){
             display: flex;
