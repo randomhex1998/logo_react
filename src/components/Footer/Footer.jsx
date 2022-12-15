@@ -4,7 +4,8 @@ const Footer = () => {
     return (
         <footer className='footer'>
             <div className="container">
-                555
+                <h2 className=''>LOGO</h2>
+                <p>کلیه حقوق برای <span>رایان جابری</span> محفوظ است</p>
             </div>
         </footer>
     );
