@@ -8,6 +8,7 @@ import About from "./components/About/About";
 import Reason from "./components/Reason/Reason";
 import Consent from "./components/Consent/Consent";
 import Prices from "./components/Prices/Prices";
+import Customers from "./components/Customers/Customers";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Reason />
       <Consent />
       <Prices />
+      <Customers />
     </>
   );
 }
