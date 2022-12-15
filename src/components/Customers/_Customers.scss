@@ -10,4 +10,57 @@
         height: 100%;
         background: rgba(0, 0, 0, 0.747);
     }
+
+    .container{
+        height: 50vh;
+        direction: rtl;
+        @include flexCenter;
+    }
+}
+
+.comment-box {
+    width: 600px;
+    color: white;
+
+    .comment-head{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: row-reverse;
+        gap: 0.5rem;
+
+        .comment-titles-area{
+            @include flexCenter;
+            flex-direction: column;
+
+            h3{
+                font-size: 16px;
+            }
+
+            p{
+                font-weight: 300;
+                font-size: 13px;
+                color: $light-purple-color;
+            }
+        }
+
+        .comment-img-area{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            overflow: hidden;
+
+            img{
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    }
+
+    .comment-text{
+        margin-top: 1rem;
+        font-size: 15px;
+        line-height: 2;
+        font-weight: 300;
+    }
 }
