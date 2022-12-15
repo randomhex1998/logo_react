@@ -1,0 +1,16 @@
+.team{
+
+    .row{
+        gap: 30px;
+    }
+
+    .team-box{
+        padding: 2rem 1rem;
+        background-color: #f1f2f6;
+
+        img{
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}

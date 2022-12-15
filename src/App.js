@@ -9,6 +9,7 @@ import Reason from "./components/Reason/Reason";
 import Consent from "./components/Consent/Consent";
 import Prices from "./components/Prices/Prices";
 import Customers from "./components/Customers/Customers";
+import Team from "./components/Team/Team";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Consent />
       <Prices />
       <Customers />
+      <Team />
     </>
   );
 }
