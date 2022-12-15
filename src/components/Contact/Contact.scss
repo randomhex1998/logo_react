@@ -29,50 +29,65 @@
     }
 
     .main-form{
+        @include flexCenter;
+        flex-direction: column;
         margin-top: 2rem;
+
         .row{
+            width: 100%;
             flex-wrap: wrap;
             gap: 30px;
+
             @include XLarge{
                 gap: 0 !important;
             }
+
             .column{
                 @include XLarge{
                     flex: 0 0 100%;
                 }
             }
         }
+
+        .inpt{
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 0;
+            outline: 0;
+            background-color: #ecf0f1;
+            font-family: var(--persian-main-font);
+            box-sizing: border-box;
+            border-bottom: 2px solid #eee;
+            transition: 0.2s border-color, 0.2s opacity;
+            opacity: 0.5;
+            border-radius: 3px;
+            direction: rtl;
+        }
+    
+        .txtarea{
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 0;
+            outline: 0;
+            background-color: #ecf0f1;
+            font-family: var(--persian-main-font);
+            box-sizing: border-box;
+            border-bottom: 2px solid #eee;
+            transition: 0.2s border-color, 0.2s opacity;
+            opacity: 0.5;
+            border-radius: 3px;
+            direction: rtl;
+        }
+
+        .btn{
+            background-color: $light-purple-color;
+            color: #fff;
+            margin-top: 3rem;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        }
     }
 
-    .inpt{
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 10px;
-        border: 0;
-        outline: 0;
-        background-color: #ecf0f1;
-        font-family: var(--persian-main-font);
-        box-sizing: border-box;
-        border-bottom: 2px solid #eee;
-        transition: 0.2s border-color, 0.2s opacity;
-        opacity: 0.5;
-        border-radius: 3px;
-        direction: rtl;
-    }
 
-    .txtarea{
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 10px;
-        border: 0;
-        outline: 0;
-        background-color: #ecf0f1;
-        font-family: var(--persian-main-font);
-        box-sizing: border-box;
-        border-bottom: 2px solid #eee;
-        transition: 0.2s border-color, 0.2s opacity;
-        opacity: 0.5;
-        border-radius: 3px;
-        direction: rtl;
-    }
 }

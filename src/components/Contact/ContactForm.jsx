@@ -1,3 +1,5 @@
+import Button from "../../shared/Button";
+
 const ContactForm = () => {
     return(
         <form action="#" className="main-form">
@@ -11,6 +13,8 @@ const ContactForm = () => {
             </div>
                 <input type="text" className="inpt" placeholder="موضوع" />
                 <textarea rows="10" className="txtarea" placeholder="پیام شما"></textarea>
+
+            <Button btnClass="btn" btnTitle="ارسال درخواست"></Button>
         </form>
     )
 }
