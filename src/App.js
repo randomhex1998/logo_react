@@ -11,6 +11,7 @@ import Prices from "./components/Prices/Prices";
 import Customers from "./components/Customers/Customers";
 import Team from "./components/Team/Team";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <Customers />
       <Team />
       <Contact />
+      <Footer />
     </>
   );
 }
