@@ -3,14 +3,14 @@ const ContactForm = () => {
         <form action="#" className="main-form">
             <div className="row">
                 <div className="column">
-                    <input type="text" className="inpt" />
+                    <input type="text" className="inpt" placeholder="نام و نام خانوادگی"/>
                 </div>
                 <div className="column" >
-                    <input type="text" className="inpt" />
+                    <input type="text" className="inpt" placeholder="ایمیل" />
                 </div>
             </div>
-                <input type="text" className="inpt" />
-                <textarea rows="10" className="txtarea"></textarea>
+                <input type="text" className="inpt" placeholder="موضوع" />
+                <textarea rows="10" className="txtarea" placeholder="پیام شما"></textarea>
         </form>
     )
 }
