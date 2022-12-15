@@ -1,5 +1,6 @@
 import React from 'react';
 import ContactInfo from './ContactInfos';
+import ContactForm from './ContactForm';
 
 const Contact = () => {
     return (
@@ -11,6 +12,7 @@ const Contact = () => {
                 <ContactInfo InfoIco="fas fa-envelope" InfoTitle="ایمیل" InfoText="rayan@gmail.com" />
                 <ContactInfo InfoIco="fas fa-map-marked-alt" InfoTitle="آدرس" InfoText="کرج" />
                 </div>
+                <ContactForm/>
             </div>
         </div>
     );
