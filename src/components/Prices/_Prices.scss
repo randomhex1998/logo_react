@@ -1,6 +1,13 @@
 .prices {
     .row {
         gap: 2rem;
+        flex-wrap: wrap;
+
+        .column{
+            @include XLarge{
+                flex: 0 0 100%;
+            }
+        }
     }
 
     .price-box{
@@ -11,6 +18,10 @@
         text-align: center;
         flex-direction: column;
         @include flexCenter;
+
+        @include XXLarge{
+            width: 420px;
+        }
 
 
         p{
