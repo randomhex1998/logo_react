@@ -18,5 +18,25 @@
                 color: $light-purple-color;
             }
         }
+
+        .social-boxes{
+            @include flexCenter;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 1rem;
+
+            .social-area{
+                width: 55px;
+                height: 55px;
+                border-radius: 2px;
+                background-color: $light-purple-color;
+                @include flexCenter;
+
+                i{
+                    color: #fff;
+                    font-size: 18px;
+                }
+            }
+        }
     }
 }
