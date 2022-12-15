@@ -1,0 +1,57 @@
+.prices {
+    .row {
+        gap: 2rem;
+    }
+
+    .price-box{
+        width: 390px;
+        padding: 1.5rem;
+        border: 1px solid #ECF0F1;
+        border-radius: 3px;
+        text-align: center;
+        flex-direction: column;
+        @include flexCenter;
+
+
+        p{
+            color: $light-gray-color;
+            font-weight: 300;
+            font-size: 16px;
+        }
+
+        .round-price{
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 2px solid $light-purple-color;
+            margin: 1rem 0;
+            flex-direction: column;
+            @include flexCenter;
+        }
+
+        .price-box-content{
+            line-height: 1.6;
+            margin-bottom: 1rem;
+            p{
+                color: $dark-gray-color !important;
+                font-size: 15px !important;
+                font-weight: 300 !important;
+            }
+            
+        }
+
+        .btn{
+            border: 2px solid $light-purple-color;
+            color: $light-purple-color;
+            background-color: transparent;
+            border-radius: 5px;
+            font-size: 15px;
+
+            &:hover{
+                background-color: $light-purple-color;
+                color: #fff;
+            }
+        }
+    }
+}
+
