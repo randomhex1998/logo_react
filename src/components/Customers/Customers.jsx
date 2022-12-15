@@ -1,11 +1,12 @@
 import React from 'react';
+import CustSlide from './CustomersSlide';
 
 const Customers = () => {
     return (
         <div className='customers'>
                 <div className='card-overly'>
                     <div className='container'>
-                    555
+                        <CustSlide/>
                      </div>
             </div>
         </div>
