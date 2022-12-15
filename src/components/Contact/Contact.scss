@@ -28,6 +28,22 @@
         }
     }
 
+    .main-form{
+        margin-top: 2rem;
+        .row{
+            flex-wrap: wrap;
+            gap: 30px;
+            @include XLarge{
+                gap: 0 !important;
+            }
+            .column{
+                @include XLarge{
+                    flex: 0 0 100%;
+                }
+            }
+        }
+    }
+
     .inpt{
         width: 100%;
         padding: 10px;
